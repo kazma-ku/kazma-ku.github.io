@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Artist directory</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet' href='./index.css' >
+</head>
+<body>
+    <h1>Artist Directory</h1>
+    <button id="showFormBtn">Add</button> 
+    <form id="artist-form" class="no-display">
+        <input type="text" name="name" placeholder="Airtist Name" id="artistName" class="artistInput">
+        <input type="text" name="about" placeholder="About Artist" id="aboutArtist" class="artistInput">
+        <input type="text" name="number" placeholder="Artist Number(1-99)" id="artistNumber" class="artistInput">
+        <button id="addBtn" type="submit">Save</button>
+    </form>
+    <div id="artists">
+    </div>
+    <script src='./index.js'></script>
+</body>
+</html>

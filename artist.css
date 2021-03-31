@@ -1,0 +1,16 @@
+/* styling for artist.html */
+img{
+    border-radius: 50%;
+}
+
+#parent, .textDiv{
+    width: 200px;
+    text-align: center;
+    display: inline-block;
+    float:right;
+}
+
+h1{
+    color: white;
+    background-color: green;
+}

@@ -1,0 +1,18 @@
+/* styling for index.html */
+h1{
+    text-align: center;
+}
+
+.artistInput, button {
+    margin: 0 auto;
+    text-align: center;
+    display:block;
+}
+
+.no-display {
+    display: none;
+}
+
+.textDiv {
+	display: inline-block;
+}
